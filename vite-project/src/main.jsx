@@ -7,12 +7,18 @@ import {
     RouterProvider,
     Route,
 } from 'react-router-dom'
+import AboutUs  from './NavBar/AboutUs.jsx'
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />
+  },
+  {
+    path:"AboutUs",
+    element : <AboutUs/>
+
   }
 ]);
 
