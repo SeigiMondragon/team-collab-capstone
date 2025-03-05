@@ -1,9 +1,6 @@
 function AboutUs(){
 
-    return(
 
-        
-    )
 
 }
 
