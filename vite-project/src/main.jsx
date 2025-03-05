@@ -7,7 +7,7 @@ import {
     RouterProvider,
     Route,
 } from 'react-router-dom'
-import AboutUs  from './NavBar/AboutUs.jsx'
+import AboutUs  from './AboutUsPage/AboutUs.jsx'
 
 
 const router = createBrowserRouter([
