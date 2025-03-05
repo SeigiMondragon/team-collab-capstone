@@ -1,5 +1,5 @@
 import picture from '../assets/StiBist.png'
-import styles from './styles/AboutUsStyles.module.css'
+import styles from './styles/UpperBodyAbout.module.css'
 
 function UpperBodyAbout(){
     return(

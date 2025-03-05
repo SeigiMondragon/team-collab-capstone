@@ -1,12 +1,13 @@
 .mainBody{
     display: flex;
-    margin: 10px;
+    margin: 10px 0 10px 0;
     justify-content: space-evenly;
     background-color: #131313;
+    margin-top: 10px;
 }
 
 .image{
-    width: 150px;
+    width: 300px;
   
 }
 

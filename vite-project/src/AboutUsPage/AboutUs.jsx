@@ -1,9 +1,9 @@
 import UpperBodyAbout from "./UpperBodyAbout"
-import NavBar  from "../NavBar"
+import NavBarBorder  from "./NavBarBorder"
 function AboutUs(){
     return(
         <>
-         <NavBar/>
+         <NavBarBorder/>
          <UpperBodyAbout/>
         </>
            
