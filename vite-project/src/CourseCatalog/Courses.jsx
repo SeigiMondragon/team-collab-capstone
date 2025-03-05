@@ -1,11 +1,10 @@
 import NavBarBorder from "../AboutUsPage/NavBarBorder"
-import './styles/course.module.css'
+import styles from './styles/course.module.css'
 function Courses (){
   
   return (
     <>
-      <NavBarBorder/>
-      <div className=".container"></div>
+      <div className={styles.container}>Course 1</div>
     </>
   )
 }
