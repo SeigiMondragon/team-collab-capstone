@@ -1,0 +1,24 @@
+.mainBody{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.image{
+    width: 150px;
+    
+}
+
+.text{
+    color: white;
+    font-family: Montseratt;
+    font-weight: 700;
+    text-align: end;
+
+}
+
+
+@font-face {
+    font-family: Montseratt;
+    src: url(../../../public/Montserrat-VariableFont_wght.ttf);
+}
