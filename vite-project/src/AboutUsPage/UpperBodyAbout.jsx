@@ -1,16 +1,23 @@
 import picture from '../assets/StiBist.png'
+import styles from './styles/AboutUsStyles.module.css'
 
 function UpperBodyAbout(){
     return(
-       <div className="main-box">
+       <div className={styles.mainBody}>
             <div className="Picture-left">
-                <img src={picture} alt="Left-Image-PlaceHolder" />
+                <img className={styles.image} src={picture} alt="Left-Image-PlaceHolder" />
             </div>
-            <div className="Descriptin-right">
-                <p>
-                Passionate Individuals that aims to teach Filipinos 
-                Programming in our own language and Glorify God.
-                </p>
+            <div className={styles.text}>
+                        
+                <div>
+                Passionate <br/>
+                Individuals that aims <br/>
+                to teach Filipinos <br/>
+                Programming in our own <br/>
+                 language and Glorify God.
+                </div>
+               
+ 
             </div>
        </div> 
        
