@@ -4,6 +4,17 @@ body {
   margin: 0px;
 }
 
+.header {
+  background-color: transparent; 
+}
+
+.header.home-bg {
+  background-image: url('./assets/header\ bg.png'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;

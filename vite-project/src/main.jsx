@@ -9,6 +9,8 @@ import {
 } from 'react-router-dom'
 import AboutUs  from './AboutUsPage/AboutUs.jsx'
 import Courses from './CourseCatalog/Courses.jsx'
+import Home from './NavBar/Home.jsx'
+
 
 
 const router = createBrowserRouter([
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
   {
     path:"Courses",
     element : <Courses/>
+  },
+  {
+    path:"Home",
+    element : <Home/>
   }
 ]);
 
