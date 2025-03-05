@@ -2,11 +2,12 @@
     display: flex;
     margin: 10px;
     justify-content: space-evenly;
+    background-color: #131313;
 }
 
 .image{
     width: 150px;
-    
+  
 }
 
 .text{
@@ -14,6 +15,8 @@
     font-family: Montseratt;
     font-weight: 700;
     text-align: end;
+    display: flex;
+   align-items: center;
 
 }
 
