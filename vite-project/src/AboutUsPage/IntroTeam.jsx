@@ -11,12 +11,14 @@ function IntroTeam(){
                   <h1>SDPT Academy Team</h1>
                 </div>
                 <div className={styles.lowerLeft}>   
-
+                    <div>Developer|Designer|Professor|Marketing</div>
+                     <div>2 members </div>
                 </div>
             
             </div>
             <div className={styles.rightCard}>
-
+                <hr className={styles.horizontal} />
+        
             </div>
         </div>
     )
