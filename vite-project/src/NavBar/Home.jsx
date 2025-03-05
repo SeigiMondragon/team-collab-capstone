@@ -1,8 +1,11 @@
-import HomeBG from '../assets/header bg.png'
+import React from 'react';
 
-function Home(){
-    <div> 
-        <img src={HomeBG} alt="" />
-    </div>
+function Home() {
+    return (
+        <>
+          
+        </>
+    );
 }
-export default Home
+
+export default Home;

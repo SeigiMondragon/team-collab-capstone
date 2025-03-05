@@ -3,7 +3,7 @@ import HomeIcon from './assets/Home Icon.png'
 import AboutIcon from './assets/About Icon.png'
 import CoursesIcon from './assets/Courses Icon.png'
 import ProfileIcon from './assets/Profile Icon.png'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 
 function NavBar () {
