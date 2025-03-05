@@ -5,8 +5,14 @@ function App() {
 
   return (
     <>
-      <Header></Header>
+      <HashRouter>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route></Route>
+          <Route></Route>
+        </Routes>
 
+      </HashRouter>
     </>
   )
 }
