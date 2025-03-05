@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function NavBar () {
  return (
 
-    <div className="header" style={{ backgroundImage: `url(${HeaderBG})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '445px'}}>    
+    <div className="header">    
         <div className='nav-container'>
         <img className='header-logo' src= {Logo} alt=" pfp" />
         <div className= 'navlinks-container' >
