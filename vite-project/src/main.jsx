@@ -8,6 +8,7 @@ import {
     Route,
 } from 'react-router-dom'
 import AboutUs  from './AboutUsPage/AboutUs.jsx'
+import Courses from './CourseCatalog/Courses.jsx'
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
     path:"AboutUs",
     element : <AboutUs/>
 
+  },
+
+  {
+    path:"Courses",
+    element : <Courses/>
   }
 ]);
 
