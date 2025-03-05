@@ -2,7 +2,7 @@ function AboutUs(){
 
     return(
 
-        
+        <div></div>
     )
 
 }
