@@ -6,14 +6,7 @@ function App() {
   return (
     <>
 
-      <HashRouter>
-        <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route></Route>
-          <Route></Route>
-        </Routes>
-
-      </HashRouter>
+   
     </>
   )
 }
