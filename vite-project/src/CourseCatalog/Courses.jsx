@@ -1,10 +1,11 @@
-import NavBar from "../NavBar"
 import NavBarBorder from "../AboutUsPage/NavBarBorder"
+import './styles/course.module.css'
 function Courses (){
   
   return (
     <>
-      <button type="button" className="btn .btn-primary{background-color: '#D49902'}">Base class</button>
+      <NavBarBorder/>
+      <div className=".container"></div>
     </>
   )
 }
