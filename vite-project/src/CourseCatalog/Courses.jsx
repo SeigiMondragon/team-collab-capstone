@@ -1,7 +1,11 @@
 import NavBar from "../NavBar"
-const Courses = () => {
+import NavBarBorder from "../AboutUsPage/NavBarBorder"
+function Courses (){
   return (
-    <NavBar/>
+    <>
+      <NavBarBorder/>
+    </>
   )
 }
+
 export default Courses

@@ -22,8 +22,8 @@ function NavBar () {
         <Link className="navlink" to="/Courses">
           <img className="nav-icon" src={CoursesIcon} alt="Courses" />
         </Link>
-        <Link className="navlink" to="/Courses">
-          <img className="nav-icon-profile" src={ProfileIcon} alt="Courses" />
+        <Link className="navlink" to="/Profile">
+          <img className="nav-icon-profile" src={ProfileIcon} alt="Profile" />
         </Link>
       </div>
     </div>
