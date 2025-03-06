@@ -28,11 +28,17 @@
     padding-left: 5%;
     padding-bottom: 3%;
     font-family: Montseratt;
+    font-family: 700;
 }
 
+.members{
+    color: #D49902;
+    font-family: Montseratt;
+    font-weight: 700;
 
+}
 .horizontal{
-
+    box-shadow: 3px 7px 12px 12px black, -3px -3px 30px rgba(255, 255, 255, 0.411); 
 }
 @font-face {
     font-family: Montseratt;
