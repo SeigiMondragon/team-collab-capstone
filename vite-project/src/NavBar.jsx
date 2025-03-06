@@ -3,7 +3,6 @@ import HomeIcon from './assets/Home Icon.png'
 import AboutIcon from './assets/About Icon.png'
 import CoursesIcon from './assets/Courses Icon.png'
 import ProfileIcon from './assets/Profile Icon.png'
-import HomeBG from './assets/header bg.png'
 
 import { Link } from 'react-router-dom'
 
