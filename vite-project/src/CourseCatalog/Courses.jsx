@@ -4,6 +4,7 @@ function Courses (){
   
   return (
     <>
+      <NavBarBorder />
       <div className={styles.container}>Course 1</div>
     </>
   )
