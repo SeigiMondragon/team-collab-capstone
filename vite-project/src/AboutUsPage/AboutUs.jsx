@@ -6,7 +6,7 @@ function AboutUs(){
         <>
          <NavBarBorder/>
          <UpperBodyAbout/>
-         <IntroTeam/>
+    
         </>
            
     )
